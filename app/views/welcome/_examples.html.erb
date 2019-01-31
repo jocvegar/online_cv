@@ -1,22 +1,38 @@
 <ul class="fa-ul mb-0">
     <li>
-        <i class="fa-li fa fa-book"></i>
-        <a href="https://jose-vega-blog.herokuapp.com" target="_blank">Personal Blog</a>
-        <small>Rails, HTML and CSS</small>
+        <%= link_to "https://jose-vega-blog.herokuapp.com",
+            target: :_blank, style: "text-decoration:none;" do %>
+            <div class="subheading mb-3">Personal Blog
+                <i class="fa-li fa fa-book"></i>
+                <small class="details">Rails, HTML and CSS</small>
+            </div>
+        <% end %>
     </li>
     <li>
-        <i class="fa-li fa fa-sun-o"></i>
-        <a href="http://another-weather-app.herokuapp.com/" target="_blank">Weather App</a>
-        <small>React, Fetch API, JSX and CSS</small>
+        <%= link_to "http://another-weather-app.herokuapp.com/",
+            target: :_blank, style: "text-decoration:none;" do %>
+            <div class="subheading mb-3">Weather App
+                <i class="fa-li fa fa-sun-o"></i>
+                <small class="details">React, Fetch API, JSX and CSS</small>
+            </div>
+        <% end %>
     </li>
     <li>
-        <i class="fa-li fa fa-file-text-o"></i>
-        <a href="https://bacon-text.herokuapp.com/" target="_blank">Text Generator App</a>
-        <small>React, ComponentDidMount, Fetch API, JSX, Bootstrap</small>
+        <%= link_to "https://bacon-text.herokuapp.com/",
+            target: :_blank, style: "text-decoration:none;" do %>
+            <div class="subheading mb-3">Text Generator App
+                <i class="fa-li fa fa-file-text-o"></i>
+                <small class="details">React, Fetch API, JSX and CSS</small>
+            </div>
+        <% end %>
     </li>
     <li>
-        <i class="fa-li fa fa-pencil"></i>
-        <a href="https://medinota.herokuapp.com/" target="_blank">MediNota App</a>
-        <small>Ruby on Rails, Bootstrap, Clearance gem</small>
+        <%= link_to "https://medinota.herokuapp.com/",
+            target: :_blank, style: "text-decoration:none;" do %>
+            <div class="subheading mb-3">MediNota App
+                <i class="fa-li fa fa-pencil"></i>
+                <small class="details">Ruby on Rails, Bootstrap, Clearance gem</small>
+            </div>
+        <% end %>
     </li>
 </ul>

@@ -29,16 +29,26 @@
                         <a href="https://safetyspot.com/" target="_blank">Safety Spot Inc.</a>
                     </div>
                     <p>
-                        Main responsibilities as a lead developer include coding, designing, and rapidly iterating and deploying the product. Constant interaction with clients and stakeholders to identify the best technical solutions or improvements to current features.
+                        Main responsibilities include coding, designing, and rapidly integrating and deploying the source code. Constant interaction with  stakeholders to identify the best technical solutions or improvements to current features.
                     </p>
-                    <p>Lead and manage a team of four.</p>
+                    <p>
+                        Lead and manage a team of four.
+                    </p>
                     <ul>
+                        <li>Redesigned blog page by creating a full responsive design</li>
+                        <li>Improved site’s accessibility by 60% by implementing ARIA attributes</li>
+                        <li>Increased ability to add data by creating duplicate feature</li>
+                        <li>Improved data upload by creating CSV file upload</li>
+                        <li>Implemented invoice receipt feature connecting to Braintree</li>
+                        <li>Enhances user experience by adding equipment circulation feature </li>
+                        <br>
                         <li>100% Development of volunteer signup page</li>
                         <li>100% Development of sales rep portal</li>
                         <li>100% Development of receipt generation via Braintree</li>
                         <li>100% Development of mobile application API</li>
                         <li>100% Development of downloadable slides in PDF (React.js)</li>
                     </ul>
+
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">Jan. 2018 - Present</span>
@@ -50,33 +60,23 @@
                     <div class="subheading mb-3">
                         <a href="https://safetyspot.com/" target="_blank">Safety Spot Inc.</a>
                     </div>
-                    <p>Full-stack development with Ruby on Rails Ruby on Rails, HTML, CSS, JavaScript. Principal responsibilities are back end functionality, logic and architecture, maintenance of test suite and daily communication with team members.
+                    <p>
+                        A full-stack developer of SafetySpot Inc. platform using Ruby on Rails, HTML, CSS, JavaScript. Principal responsibility is back-end functionality and maintaining the test suite. Manage code and communication with other team members via BitBucket and Slack, respectively. Work with libraries such as: bootstrap, jQuery, JSON, and  React JS.
                     </p>
                     <p>Features and improvements where I have contributed:</p>
                     <ul>
-                        <li>95% Development of shareable pages on social media</li>
-                        <li>95% Development of single page application with React JS and AJAX calls.</li>
-                        <li>90% Development of Safety Spot's blog</li>
+                        <li>60% Improvement of test suite and implementation of factories</li>
+                        <li>80% Development of APIs  for mobile app connectivity</li>
                         <li>90% Development of a log for daily activities</li>
-                        <li>90% Development of terms of conditions page & agreement</li>
-                        <li>90% Development of adding pictures to assets (AWS)</li>
-                        <li>60% Improvement of test suite and implementation of Factories</li>
+                        <li>90% Development of Safety Spot's blog</li>
+                        <li>95% Development of adding pictures to assets (AWS)</li>
+                        <li>95% Development of shareable pages on social media</li>
+                        <li>95% Development of terms of conditions page & agreement</li>
+                        <li>100% Development of user mentioning with AJAX and React Js</li>
                     </ul>
                 </div>
                 <div class="resume-date text-md-right">
                     <span class="text-primary">Feb. 2017 - Dec. 2017</span>
-                </div>
-            </div>
-            <div class="resume-item d-flex flex-column flex-md-row">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">Co-founder &amp; Creative Director </h3>
-                    <div class="subheading mb-3">
-                        <a href="https://www.instagram.com/nectar_hn/" target="_blank">Nectar</a>
-                    </div>
-                    <p>Social media content creator for publicity. Designed company's logo, name and slogan. Manage social media accounts. Principal responsibilities include communicating with clients and catering events.</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">June 2016 - Present</span>
                 </div>
             </div>
             <br>
@@ -90,18 +90,32 @@
                     <span class="text-primary">April 2011 - Jan. 2017</span>
                 </div>
             </div>
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
-                <div class="resume-content mr-auto">
-                    <h3 class="mb-0">General Manager</h3>
-                    <div class="subheading mb-3">
-                        <a href="https://preconhonduras.carrd.co/" target="_blank">Precon</a>
-                    </div>
-                    <p>Carry out financial &amp; operational management and record-keeping for a post shore and scaffolding Rental Company. Responsible of accounts payable, invoices, inventory, billing, and maintaining an excellent communication with client.</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="text-primary">Jan 2012 - Present 2011</span>
-                </div>
-            </div>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="sample-apps">
+        <div>
+            <h2 class="mb-5">Sample Applications</h2>
+                <%= render "examples" %>
+        </div>
+    </section>
+
+    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div>
+            <h2 class="mb-5">Skills</h2>
+            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+                <%= render "programming_languages" %>
+            <div class="subheading mb-3">Languages</div>
+            <ul class="fa-ul mb-0">
+                <li>
+                <i class="fa-li fa fa-language"></i>
+                    English <span class="text-primary"> 100%</span>
+                </li>
+                <li>
+                <i class="fa-li fa fa-language"></i>
+                    Spanish <span class="text-primary"> 100%</span>
+                </li>
+            </ul>
         </div>
     </section>
 
@@ -133,34 +147,18 @@
         </div>
     </section>
 
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div>
-            <h2 class="mb-5">Skills</h2>
-            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                <%= render "programming_languages" %>
-            <div class="subheading mb-3">Languages</div>
-            <ul class="fa-ul mb-0">
-                <li>
-                <i class="fa-li fa fa-language"></i>
-                    English <span class="text-primary"> 100%</span>
-                </li>
-                <li>
-                <i class="fa-li fa fa-language"></i>
-                    Spanish <span class="text-primary"> 100%</span>
-                </li>
-            </ul>
-            <br>
-            <div class="subheading mb-3">Examples</div>
-                <%= render "examples" %>
-        </div>
-    </section>
-
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div>
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time my friends and family. Also, I like to maintain a healthy lifestyle by doing a cardio workout after a day's work. </p>
-
-        <p class="mb-0">I enjoy cooking and trying new cuisines. Whenever I have some down time, I like exploring the latest technology advancements.</p>
+            <h2 class="mb-5">Interests</h2>
+            <p>
+                Apart from being a web developer, I enjoy most of my free time my family and friends. Be it in a bbq or going to the movies or just having a nice conversation.
+            </p>
+            <p>
+                Recently I have gotten into gardening. I find it to be very relaxing! A care for a few succulents, cacti, areca palm tress, african violets, and peace lilies. I also like to care for my health! I enjoy a good cardio workout after a day's work.
+            </p>
+            <p class="mb-0">
+                 Whenever I have some down time, I like exploring the latest technology advancements.
+             </p>
         </div>
     </section>
 
