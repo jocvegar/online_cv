@@ -103,7 +103,7 @@ GEM
     popper_js (1.14.5)
     posix-spawn (0.3.13)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (3.12.4)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
@@ -214,7 +214,7 @@ DEPENDENCIES
   jquery-rails
   listen (>= 3.0.5, < 3.2)
   pg
-  puma (~> 3.7)
+  puma (~> 3.12)
   pygments.rb (~> 0.6.3)
   rails (~> 5.1.6)
   rails_12factor
